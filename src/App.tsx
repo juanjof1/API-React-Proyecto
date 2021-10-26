@@ -1,6 +1,4 @@
 import React, { useEffect, useState } from "react";
-import { Calculator } from "./Calculator/Calculator";
-import { Link } from "react-router-dom";
 import axios from "axios";
 export const About = () => {
   const API_URL_UPCOMING =
